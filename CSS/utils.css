@@ -1,0 +1,29 @@
+.max-width1{
+    max-width: 80vw;
+}
+.max-width2{
+    max-width: 50vw;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.m-auto{
+   
+    margin:20px auto;
+}
+/* .form-box{
+    padding: 0 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin:0 13px;
+
+} */
+.form-box input,textarea{
+    width: 50vw;
+    margin: 5px 0;
+    padding: 5px 7px;
+    align-content: center;
+}

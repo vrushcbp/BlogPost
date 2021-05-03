@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    /* height: 45px; */
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+    margin: 5px 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 13px;
+}
+
+.nav-left ul {
+    display: flex;
+    margin: 5px 60px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black
+}
+.nav-left ul li a:hover {
+    color:white;
+    background-color:black;
+}
+
+.nav-right {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+    .form-input {
+        padding: 4px 22px;
+        border: 2px solid black;
+        margin: 0 14px;
+    }
+
+.btn {
+    border: 2px solid black;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:white;
+    background-color: blueviolet;
+}
+
+
+.content {
+    margin-top: 32px;
+    height: 100%;
+     background-color: rgb(247, 253, 253); 
+     display: flex;
+     margin-top: 10px;
+
+}
+
+.content-left{
+    font-family: 'Mulish', sans-serif;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px
+}
+
+
+.content-right{
+    width:50%;
+    display: flex;
+    align-items: center; 
+    justify-content:center;
+}
+.content-right img
+{
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 200px;
+}
+.home-articles{
+    font-family: 'Mulish', sans-serif;
+    height: 400px;
+    /* background-color:rgb(245, 219, 228); */
+    margin-top: 32px;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    /* background-color: red; */
+    width: 70px;
+    height: 244px;
+    right: 119px;
+    top: 71px;
+    font-size: 20px;
+}
+.year-box div{
+    margin: 12px 0;
+}
+.home-article{
+    display: flex;
+    margin:25px;
+}
+.home-article img{
+    height: 200px;
+    padding:12px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a {
+text-decoration: none;
+}
+.footer {
+    height: 34px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
